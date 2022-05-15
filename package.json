@@ -1,7 +1,8 @@
 {
   "name": "@catears/react-bonus",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bonus helper scripts for react",
+  "private": false,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,7 +13,7 @@
   "module": "dist/module.js",
   "types": "dist/types.d.ts",
   "peerDependencies": {
-    "react": "^18.1.0"
+    "react": "^17.0.2"
   },
   "devDependencies": {
     "@parcel/packager-ts": "^2.5.0",
