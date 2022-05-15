@@ -2,17 +2,22 @@
   "name": "@catears/react-bonus",
   "version": "1.0.0",
   "description": "Bonus helper scripts for react",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "MIT",
-  "source": "",
+  "source": "src/index.ts",
+  "main": "dist/main.js",
+  "module": "dist/module.js",
+  "types": "dist/types.d.ts",
   "peerDependencies": {
     "react": "^18.1.0"
   },
   "devDependencies": {
-    "parcel": "2.5.0"
+    "@parcel/packager-ts": "^2.5.0",
+    "@parcel/transformer-typescript-types": "^2.5.0",
+    "parcel": "2.5.0",
+    "typescript": "^4.6.4"
   }
 }
